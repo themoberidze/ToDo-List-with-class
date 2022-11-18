@@ -1,0 +1,76 @@
+/* --- Resret CSS --- */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/to-do-list-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.inputdiv{
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+    background-color: #adff2f;
+}
+input{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+button{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+.add:hover{
+    background-color: #adff2f;
+}
+.save:hover{
+    background-color: green;
+}
+.edit:hover{
+    background-color: yellow;
+}
+.delete:hover{
+    background-color: red;
+}
+button:hover{
+    font-size: 20px;
+}
+.listdiv{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
